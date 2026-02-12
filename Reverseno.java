@@ -1,5 +1,3 @@
-//Reverse the number 
-
 import java.util.Scanner;
 
 public class Reverseno {
