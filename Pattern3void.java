@@ -1,7 +1,9 @@
-public class Reversepyramid {
+public class Pattern3void {
+
+    
     public static void printPattern() {
 
-        int rows = 5;
+        int rows = 6;
 
         for(int i = 0; i < rows; i++) {
 
@@ -11,8 +13,8 @@ public class Reversepyramid {
             }
 
             
-            for(int j = 0; j < (2 * (rows - i) - 1); j++) {
-                System.out.print("* ");
+            for(int j = rows; j > i; j--) {
+                System.out.print("*");
             }
 
             System.out.println(); 
@@ -23,3 +25,4 @@ public class Reversepyramid {
         printPattern();
     }
 }
+
